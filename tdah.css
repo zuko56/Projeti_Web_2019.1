@@ -1,0 +1,30 @@
+body{
+    padding: 1rem 0rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+    padding: 1rem;
+    padding-left: 7.5rem;
+}
+.card{
+    border-radius: 20px;
+    transform: rotateZ(-4deg);
+}
+#tdah{
+    background-color:#05668D;
+    border-radius: 20px;
+}
+#sintomas{
+    background-color: #FF9F1C;
+    border-radius: 20px;
+}
+#dicas{
+    background-color: #02C39A;
+    border-radius: 20px;
+}
