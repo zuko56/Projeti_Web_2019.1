@@ -1,5 +1,8 @@
 body{
     padding: 1rem 0rem;
+    background-image: url(imgs/puzzle2.png);
+    background-size: cover; 
+    
   }
   .card {
     margin-bottom: 1rem;
@@ -12,19 +15,62 @@ h2{
     padding: 1rem;
     padding-left: 7.5rem;
 }
+.titulos{
+    color: #fff;
+    text-shadow: 3px 3px black;
+    font-family: 'Finger Paint', cursive;
+}
 .card{
     border-radius: 20px;
     transform: rotateZ(-4deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+}
+.lead{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
+.card:hover{
+    margin-top: -7px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
 }
 #tdah{
     background-color:#05668D;
     border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    color: #fff;
 }
 #sintomas{
     background-color: #FF9F1C;
     border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
 }
 #dicas{
     background-color: #02C39A;
     border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+img{
+    width: 50px;
+    height: 50px;   
+}
+.numeros{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 82%;
+}
+#passos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.destaque{
+    font-weight: bold;
+    color: #9fd30f;
 }

@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="tdah.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <title>TDAH</title>
 </head>
 
 <body>
-    <h1>INFORMAÇÕES</h1>
-    <h2>Siga os Passos Abaixo</h2>
+    <h1 class="titulos">INFORMAÇÕES</h1>
+    <div id="passos">
+        <h2 class="titulos">Siga os Passos Abaixo</h2>
+        <img src="imgs/hand3.png" alt="mão apontando para baixo">
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-light">
                     <div class="card-body">
-                        <h4 class="card-title">Bologna</h4>
+                        <img src="imgs/one.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -29,7 +35,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-secondary text-white">
                     <div class="card-body">
-                        <h4 class="card-title">Oslo</h4>
+                        <img src="imgs/two.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -39,7 +45,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-dark text-white">
                     <div class="card-body">
-                        <h4 class="card-title">Berlin</h4>
+                        <img src="imgs/three.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -49,7 +55,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-primary text-white">
                     <div class="card-body">
-                        <h4 class="card-title">Bucharest</h4>
+                        <img src="imgs/four.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -59,7 +65,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-info">
                     <div class="card-body">
-                        <h4 class="card-title">Madrid</h4>
+                        <img src="imgs/five.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -69,7 +75,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-success">
                     <div class="card-body">
-                        <h4 class="card-title">London</h4>
+                        <img src="imgs/six.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -79,7 +85,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-warning">
                     <div class="card-body">
-                        <h4 class="card-title">Vienna</h4>
+                        <img src="imgs/seven.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -89,7 +95,7 @@
             <div class="col-6 col-sm-6 col-lg-3">
                 <div class="card bg-danger text-white">
                     <div class="card-body">
-                        <h4 class="card-title">Amsterdam</h4>
+                        <img src="imgs/eight.svg" alt="" class="numeros">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit</p>
                     </div>
@@ -101,22 +107,46 @@
         <div class="jumbotron jumbotron-fluid" id="tdah">
             <div class="container">
                 <h1 class="display-4 d-inline">O que é TDAH?</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                <p class="lead">A Associação Brasileira de Déficit de Atenção (ABDA) define-o como um transtorno neurobiológico, de causas genéticas, que aparece na infância e frequentemente acompanha o indivíduo por toda sua vida. Ele caracteriza-se por <span class="destaque">sintomas de desatenção, inquietude e impulsividade</span>, esse transtorno causa prejuízos na vida familiar, social e profissional, o que influencia seu desempenho na vida adulta.
                 </p>
             </div>
         </div>
         <div class="jumbotron jumbotron-fluid" id="sintomas">
             <div class="container">
                 <h1 class="display-4 d-inline">Sintomas</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
-                </p>
+                <ul class="lead">
+                    <li>Impaciência</li>
+                    <li>Desatenção</li>
+                    <li>Hiperatividade</li>
+                    <li>Impulsividade</li>
+                    <li>Dificuldade em Aguardar sua Vez</li>
+                    <li>Responder Precipitadamente</li>
+                    <li>Interromper o Assunto dos Outros</li>
+                    <li>Alteração de Sociabilidade</li>
+                    <li>Baixa Tolerância e Auto-Estima</li>
+                    <li>Comportamento Desafiador</li>
+                    <li>Desastrados</li>
+                    <li>Distúrbio da Fala</li>
+                    <li>Alterações no Processamento Auditivo</li>
+                </ul>
             </div>
         </div>
         <div class="jumbotron jumbotron-fluid" id="dicas">
             <div class="container">
                 <h1 class="display-4 d-inline">Dicas</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
-                </p>
+                <ul class="lead">
+                    <li>Se Organize</li>
+                    <li>Faça Planejamentos</li>
+                    <li>Estabeleça Metas e Prazos Alcançáveis</li>
+                    <li>Utilize Relógios e Alarmes</li>
+                    <li>Pratique Exercícios</li>
+                    <li>Durma Bastante</li>
+                    <li>Alimente-se Corretamente</li>
+                    <li>Crie Rotinas</li>
+                    <li>Organize seu Local de Trabalho ou Ambiente de Estudos</li>
+                    <li>Faça Agora!</li>
+                    <li>Faça uma Tarefa de Cada Vez</li>
+                </ul>
             </div>
         </div>
     </div>
